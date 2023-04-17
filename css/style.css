@@ -1,6 +1,69 @@
-header {
-   
-
 .container {
-    max-width: 1280px.;
+    max-width: 1280px;
 }
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 0 2em;
+}
+nav {
+    text-align: right;
+  }
+
+  nav li {
+    margin-left: 3em;
+    margin-bottom: 0;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    align-items: center;
+  }
+
+  nav ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .logo {
+    font-weight: bold;
+    color: white;
+    font-size: 2rem;
+    text-align: left;
+  }
+  
+  nav {
+    text-align: left;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+
+  .banner {
+width: 100%;
+}
+  
+.wrapper {
+    width: 1280px;
+    margin:  0 auto;
+}
+section#about-me {
+    display: flex;
+}
+
+  
+  
+  
+  

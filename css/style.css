@@ -73,7 +73,7 @@ section#about-me {
 }
 
 section#what-i-can-do {
-    display: flex;
+    display: grid;
     align-items: center;
 }
 
@@ -129,6 +129,8 @@ html {
     background-color: #FAFAFA;
 }
 
+section#my-work {
+    align-items: center;
+}
 
-  
   

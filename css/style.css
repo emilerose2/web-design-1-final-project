@@ -20,7 +20,7 @@ nav {
     text-align: right;
   }
 
-  nav li {
+nav li {
     margin-left: 3em;
     margin-bottom: 0;
   }
@@ -46,6 +46,7 @@ nav {
     color: white;
     font-size: 2rem;
     text-align: left;
+    border: none;
   }
   
   nav {
@@ -67,70 +68,147 @@ width: 100%;
     width: 1280px;
     margin:  0 auto;
 }
+
 section#about-me {
     display: flex;
     align-items: center;
+    font-family: roboto;
 }
 
 section#what-i-can-do {
-    display: grid;
-    align-items: center;
+    text-align: center;
 }
 
-html {
-    box-sizing: border-box; 
-  }
-
-.box-1 {
-    margin-bottom: 15px;
-    width: 16%;
-  }
-
-  div {
+div {
     border: 2px solid #FAFAFA;
     margin: 1rem;
   }
+
+section#boxes {
+    display: flex;
+    width: 70%;
+}
 
 
 .box-1 {
       color: black;
       text-decoration: none;
-      display: block;
       padding: 0.5em 0.75em;
-      width: 17%;
+      width: 70%;
       text-align: start;
-      align-items: center;
-      justify-content: center;
       margin: 0 auto;
       background-color: #FAFAFA;
+      display: grid;
   }
 
 .box-2 {
     color: black;
     text-decoration: none;
-    display: inline-block;
     padding: 0.5em 0.75em;
-    width: 17%;
-    text-align: start;
+    width: 70%;
     text-align: start;
     margin: 0 auto;
     background-color: #FAFAFA;
+    display: grid;
 }
 
 .box-3 {
     color: black;
     text-decoration: none;
-    display: inline-block;
     padding: 0.5em 0.75em;
-    width: 17%;
-    text-align: start;
+    width: 60%;
     text-align: start;
     margin: 0 auto;
     background-color: #FAFAFA;
+    display: grid;
 }
 
 section#my-work {
     align-items: center;
 }
 
+section#portfolio {
+    justify-content: center;
+    align-items: center;
+}
+
+.columns {
+    display: flex;
+  }
   
+  .columns div {
+    width: 50%;
+  }
+  
+  .columns div {
+    color: #FAFAFA;
+    width: 50%;
+    padding: .5em;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border: none;
+  }
+  
+ p {
+    flex-grow: 1;
+  }
+
+  .columns {
+    background-color: black;
+    height: 500px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+ div.contact {
+    text-align: center;
+ }
+
+ h2 {
+    text-align: center;
+ }
+
+div.portfolio {
+    max-width: 100%;
+    align-items: center;
+}
+
+#footer {
+    color: #FAFAFA;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background: black;
+ }
+
+a {
+  color: #FAFAFA;
+  text-decoration: none;
+  display: flex;
+  padding: 0.5em 0.75em;
+  width: 45%;
+  height: 30px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: black;
+}
+
+div.they-tell {
+    color: #FAFAFA;
+    background-color: black;
+    height: 50px;
+    margin-bottom: 0;
+}
+
+div.social {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 3%;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
